@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "465075023792",
+    "firebase_url": "https://fireapp-2400e.firebaseio.com",
+    "project_id": "fireapp-2400e",
+    "storage_bucket": "fireapp-2400e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465075023792:android:07003835970ae54a",
+        "android_client_info": {
+          "package_name": "com.example.ben.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465075023792-6tn1s9rer1rqkba8vcss5p7u30s7e0q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtF3NET51OJ_4Diz-9cn0pcwpdw5QbfYI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465075023792-6tn1s9rer1rqkba8vcss5p7u30s7e0q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
