@@ -9,6 +9,13 @@ import android.widget.EditText;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+////////////////////////////////////////////////////////////*
+// This program writes to a FireBase Database               *
+// Dependencies needed to be added are on the FB website    *
+// or FireBase tools on android studio.                     *
+// Note: This is letting anybody write to the database      *
+// under the JSON rules for the database                    *
+////////////////////////////////////////////////////////////*
 public class MainActivity extends AppCompatActivity {
 
     @Override
