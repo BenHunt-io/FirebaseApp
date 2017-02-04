@@ -20,13 +20,17 @@ public class MainActivity extends AppCompatActivity {
         Button submitData = (Button)findViewById(R.id.submitData);
         final EditText textField = (EditText)findViewById(R.id.editText);
 
+
+        // On button click, push data in editText to Database
         submitData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Write a message to the database
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myRef = database.getReference("message");
-                myRef.setValue(textField.getText());
+                // Makes it so it doesn't overwrite the previous submission on the database
+                DatabaseReference myRef = database.getReference().push();
+                // Sets the value of the DB reference that's being pushed
+                myRef.setValue(textField.getText().toString());
             }
         });
 
